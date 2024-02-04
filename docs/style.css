@@ -1,0 +1,65 @@
+
+.image {
+  border-radius: 25px;
+}
+
+main {
+  flex: 1; /* Allow main content to grow and fill remaining space */
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body fills the viewport height */
+  margin: 0; /* Remove default body margin */
+}
+
+footer {
+  background-color: #333; /* Adjust background color as needed */
+  color: #fff; /* Adjust text color as needed */
+  padding: 20px; /* Adjust padding as needed */
+  width: 100%;
+}
+
+
+
+
+/* Add this style to your existing CSS */
+.btn-bold {
+  font-weight: bold !important;
+}
+
+
+
+.fa-brands {
+  font-size: 20px; /* Adjust size as needed */
+}
+
+/* Apply flex layout to the container */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.PosterImg {
+  height: 250px;
+}
+
+.cardImg {
+  height: 250px;
+  margin-top: 15px;
+}
+
+.Port {
+  border-radius: 15px;
+}
+
+.Qaiwan {
+  width: 100px;
+}
+
+.Qaiwan2 {
+  width: 150px;
+}
